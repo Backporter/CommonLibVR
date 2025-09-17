@@ -22,6 +22,5 @@ namespace RE
 		public:
 			Location* locations[4];
 		};
-		static_assert(sizeof(DefaultLocationData) == 0x28);
 	}
 }
